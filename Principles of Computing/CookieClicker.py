@@ -250,7 +250,7 @@ def run_strategy(strategy_name, time, strategy):
     Run a simulation with one strategy
     """
     state = simulate_clicker(provided.BuildInfo(), time, strategy)
-    print strategy_name, ":", state
+    print (strategy_name, ":", state)
 
     # Plot total cookies over time
 
